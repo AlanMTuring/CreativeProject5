@@ -81,6 +81,7 @@ export default new Vuex.Store({
                 context.commit('setLogin',true);
                 context.commit('setRegisterError',"");
                 context.commit('setLoginError',"");
+                return context.dispatch('getUserSongs',{user:context.state.user});
             }).catch(error => {
                 context.commit('setLoginError',"");
                 context.commit('setLogin',false);

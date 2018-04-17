@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <p>&copy; Kalin Nelson | <a href="https://github.com/AlanMTuring/BlakeAndKalinVue" target="_blank">Github Repository</a>
+        <p>&copy; Kalin Nelson | <a href="https://github.com/AlanMTuring/CreativeProject5" target="_blank">Github Repository</a>
         </p>
     </footer>
 </template>

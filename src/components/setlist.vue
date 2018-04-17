@@ -40,7 +40,7 @@
                 </ol>
             </div>
             <div class="wedding-setlist">
-                <h2>Suggestions</h2>
+                <h2>Personalized Set-List</h2>
                 <div v-if="loggedIn">
                     <!-- <button><a @click="logout" href="#/setlist">Logout</a></button> -->
                     <button @click="logout" id="notRegister">Logout</button>
